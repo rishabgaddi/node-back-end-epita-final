@@ -35,4 +35,4 @@ services:
       - ./server:/app
     environment:
       APP_PORT: 4500
-      MONGO_DB: mongodb://root:root@mongo:27017/movies?authSource=admin
+      # MONGO_DB: mongodb://root:root@mongo:27017/movies?authSource=admin

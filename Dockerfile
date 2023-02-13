@@ -2,4 +2,4 @@ FROM node:lts
 
 WORKDIR /app
 
-CMD [ "yarn", "start" ]
+CMD [ "yarn", "dev" ]
