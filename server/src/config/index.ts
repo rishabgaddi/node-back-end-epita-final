@@ -14,4 +14,6 @@ export const {
   LOG_FORMAT,
   LOG_DIR,
   ORIGIN,
+  SPRING_BOOT_PORT,
+  SPRING_BOOT_HOST,
 } = process.env;

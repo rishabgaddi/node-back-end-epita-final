@@ -1,0 +1,7 @@
+2023-02-14 10:42:49 error: [POST] /movies >> StatusCode:: 500, Message:: Movie validation failed: trailerURL: Path `trailerURL` is required., posterURL: Path `posterURL` is required.
+2023-02-14 11:04:01 error: [POST] /movies/63eb6a8cc65637c765688b6a/poster >> StatusCode:: 500, Message:: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+2023-02-14 11:04:03 error: [POST] /movies/63eb6a8cc65637c765688b6a/trailer >> StatusCode:: 500, Message:: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+2023-02-14 11:07:45 error: [POST] /movies/63eb6b7b109d99beffb2a078/poster >> StatusCode:: 500, Message:: The bucket does not allow ACLs
+2023-02-14 11:07:46 error: [POST] /movies/63eb6b7b109d99beffb2a078/trailer >> StatusCode:: 500, Message:: The bucket does not allow ACLs
+2023-02-14 12:18:34 error: [POST] /movies >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:8080
+2023-02-14 12:22:35 error: [POST] /movies >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:8080

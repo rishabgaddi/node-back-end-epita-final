@@ -1,0 +1,267 @@
+2023-02-14 10:30:43 info: =================================
+2023-02-14 10:30:43 info: ======= ENV: development =======
+2023-02-14 10:30:43 info: 🚀 App listening on the port 4500
+2023-02-14 10:30:43 info: =================================
+2023-02-14 10:30:43 info: Connected to database
+2023-02-14 10:42:48 info: [0mOPTIONS /movies [32m204[0m 6.519 ms - 0[0m
+2023-02-14 10:42:49 error: [POST] /movies >> StatusCode:: 500, Message:: Movie validation failed: trailerURL: Path `trailerURL` is required., posterURL: Path `posterURL` is required.
+2023-02-14 10:42:49 info: [0mPOST /movies [31m500[0m 242.934 ms - 119[0m
+2023-02-14 10:44:03 info: =================================
+2023-02-14 10:44:03 info: ======= ENV: development =======
+2023-02-14 10:44:03 info: 🚀 App listening on the port 4500
+2023-02-14 10:44:03 info: =================================
+2023-02-14 10:44:03 info: Connected to database
+2023-02-14 10:44:17 info: [0mOPTIONS /movies [32m204[0m 4.113 ms - 0[0m
+2023-02-14 10:44:17 info: [0mPOST /movies [32m201[0m 124.739 ms - 251[0m
+2023-02-14 10:45:12 info: =================================
+2023-02-14 10:45:12 info: ======= ENV: development =======
+2023-02-14 10:45:12 info: 🚀 App listening on the port 4500
+2023-02-14 10:45:12 info: =================================
+2023-02-14 10:45:12 info: Connected to database
+2023-02-14 10:47:48 info: [0mOPTIONS /movies [32m204[0m 5.707 ms - 0[0m
+2023-02-14 10:47:48 info: [0mPOST /movies [32m201[0m 207.513 ms - 250[0m
+2023-02-14 10:49:11 info: [0mOPTIONS /movies [32m204[0m 1.874 ms - 0[0m
+2023-02-14 10:49:11 info: [0mPOST /movies [32m201[0m 33.468 ms - 250[0m
+2023-02-14 10:51:42 info: =================================
+2023-02-14 10:51:42 info: ======= ENV: development =======
+2023-02-14 10:51:42 info: 🚀 App listening on the port 4500
+2023-02-14 10:51:42 info: =================================
+2023-02-14 10:51:42 info: Connected to database
+2023-02-14 10:52:25 info: [0mOPTIONS /movies [32m204[0m 3.764 ms - 0[0m
+2023-02-14 10:52:26 info: [0mPOST /movies [32m201[0m 134.973 ms - 261[0m
+2023-02-14 10:52:57 info: =================================
+2023-02-14 10:52:57 info: ======= ENV: development =======
+2023-02-14 10:52:57 info: 🚀 App listening on the port 4500
+2023-02-14 10:52:57 info: =================================
+2023-02-14 10:52:57 info: Connected to database
+2023-02-14 10:53:26 info: [0mOPTIONS /movies [32m204[0m 2.464 ms - 0[0m
+2023-02-14 10:53:26 info: [0mPOST /movies [32m201[0m 116.554 ms - 812[0m
+2023-02-14 10:54:31 info: =================================
+2023-02-14 10:54:31 info: ======= ENV: development =======
+2023-02-14 10:54:31 info: 🚀 App listening on the port 4500
+2023-02-14 10:54:31 info: =================================
+2023-02-14 10:54:31 info: Connected to database
+2023-02-14 10:54:51 info: =================================
+2023-02-14 10:54:51 info: ======= ENV: development =======
+2023-02-14 10:54:51 info: 🚀 App listening on the port 4500
+2023-02-14 10:54:51 info: =================================
+2023-02-14 10:54:51 info: Connected to database
+2023-02-14 10:55:03 info: =================================
+2023-02-14 10:55:03 info: ======= ENV: development =======
+2023-02-14 10:55:03 info: 🚀 App listening on the port 4500
+2023-02-14 10:55:03 info: =================================
+2023-02-14 10:55:03 info: Connected to database
+2023-02-14 10:55:11 info: =================================
+2023-02-14 10:55:11 info: ======= ENV: development =======
+2023-02-14 10:55:11 info: 🚀 App listening on the port 4500
+2023-02-14 10:55:11 info: =================================
+2023-02-14 10:55:11 info: Connected to database
+2023-02-14 10:55:20 info: =================================
+2023-02-14 10:55:20 info: ======= ENV: development =======
+2023-02-14 10:55:20 info: 🚀 App listening on the port 4500
+2023-02-14 10:55:20 info: =================================
+2023-02-14 10:55:20 info: Connected to database
+2023-02-14 10:56:16 info: =================================
+2023-02-14 10:56:16 info: ======= ENV: development =======
+2023-02-14 10:56:16 info: 🚀 App listening on the port 4500
+2023-02-14 10:56:16 info: =================================
+2023-02-14 10:56:16 info: Connected to database
+2023-02-14 10:57:52 info: [0mOPTIONS /movies [32m204[0m 7.644 ms - 0[0m
+2023-02-14 10:57:52 info: [0mPOST /movies [32m201[0m 184.216 ms - 251[0m
+2023-02-14 11:03:40 info: [0mOPTIONS /movies [32m204[0m 6.072 ms - 0[0m
+2023-02-14 11:03:40 info: [0mPOST /movies [32m201[0m 80.097 ms - 251[0m
+2023-02-14 11:04:01 info: [0mOPTIONS /movies/63eb6a8cc65637c765688b6a/poster [32m204[0m 3.979 ms - 0[0m
+2023-02-14 11:04:01 error: [POST] /movies/63eb6a8cc65637c765688b6a/poster >> StatusCode:: 500, Message:: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+2023-02-14 11:04:01 info: [0mPOST /movies/63eb6a8cc65637c765688b6a/poster [31m500[0m 37.183 ms - 159[0m
+2023-02-14 11:04:03 info: [0mOPTIONS /movies/63eb6a8cc65637c765688b6a/trailer [32m204[0m 0.908 ms - 0[0m
+2023-02-14 11:04:03 error: [POST] /movies/63eb6a8cc65637c765688b6a/trailer >> StatusCode:: 500, Message:: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+2023-02-14 11:04:03 info: [0mPOST /movies/63eb6a8cc65637c765688b6a/trailer [31m500[0m 3.341 ms - 159[0m
+2023-02-14 11:06:39 info: =================================
+2023-02-14 11:06:39 info: ======= ENV: development =======
+2023-02-14 11:06:39 info: 🚀 App listening on the port 4500
+2023-02-14 11:06:39 info: =================================
+2023-02-14 11:06:39 info: Connected to database
+2023-02-14 11:07:39 info: [0mOPTIONS /movies [32m204[0m 2.238 ms - 0[0m
+2023-02-14 11:07:39 info: [0mPOST /movies [32m201[0m 118.047 ms - 251[0m
+2023-02-14 11:07:44 info: [0mOPTIONS /movies/63eb6b7b109d99beffb2a078/poster [32m204[0m 1.082 ms - 0[0m
+2023-02-14 11:07:45 error: [POST] /movies/63eb6b7b109d99beffb2a078/poster >> StatusCode:: 500, Message:: The bucket does not allow ACLs
+2023-02-14 11:07:45 info: [0mPOST /movies/63eb6b7b109d99beffb2a078/poster [31m500[0m 398.519 ms - 44[0m
+2023-02-14 11:07:46 info: [0mOPTIONS /movies/63eb6b7b109d99beffb2a078/trailer [32m204[0m 0.786 ms - 0[0m
+2023-02-14 11:07:46 error: [POST] /movies/63eb6b7b109d99beffb2a078/trailer >> StatusCode:: 500, Message:: The bucket does not allow ACLs
+2023-02-14 11:07:46 info: [0mPOST /movies/63eb6b7b109d99beffb2a078/trailer [31m500[0m 120.195 ms - 44[0m
+2023-02-14 11:08:17 info: =================================
+2023-02-14 11:08:17 info: ======= ENV: development =======
+2023-02-14 11:08:17 info: 🚀 App listening on the port 4500
+2023-02-14 11:08:17 info: =================================
+2023-02-14 11:08:17 info: Connected to database
+2023-02-14 11:08:45 info: [0mOPTIONS /movies [32m204[0m 4.132 ms - 0[0m
+2023-02-14 11:08:45 info: [0mPOST /movies [32m201[0m 110.013 ms - 251[0m
+2023-02-14 11:08:48 info: [0mOPTIONS /movies/63eb6bbd086133e65c891f80/poster [32m204[0m 1.084 ms - 0[0m
+2023-02-14 11:08:50 info: [0mOPTIONS /movies/63eb6bbd086133e65c891f80/trailer [32m204[0m 1.275 ms - 0[0m
+2023-02-14 11:08:52 info: [0mPOST /movies/63eb6bbd086133e65c891f80/trailer [32m200[0m 1619.890 ms - 251[0m
+2023-02-14 11:08:52 info: [0mPOST /movies/63eb6bbd086133e65c891f80/poster [32m200[0m 3486.271 ms - 359[0m
+2023-02-14 11:11:23 info: =================================
+2023-02-14 11:11:23 info: ======= ENV: development =======
+2023-02-14 11:11:23 info: 🚀 App listening on the port 4500
+2023-02-14 11:11:23 info: =================================
+2023-02-14 11:11:23 info: Connected to datab2023-02-14 11:11:55 info: =================================
+2023-02-14 11:11:55 info: ======= ENV: development =======
+2023-02-14 11:11:55 info: 🚀 App listening on the port 4500
+2023-02-14 11:11:55 info: =================================
+2023-02-14 11:11:55 info: Connected to database
+2023-02-14 11:18:44 info: =================================
+2023-02-14 11:18:44 info: ======= ENV: development =======
+2023-02-14 11:18:44 info: 🚀 App listening on the port 4500
+2023-02-14 11:18:44 info: =================================
+2023-02-14 11:18:44 info: Connected to database
+2023-02-14 11:19:20 info: [0mOPTIONS /movies [32m204[0m 2.579 ms - 0[0m
+2023-02-14 11:19:20 info: [0mPOST /movies [32m201[0m 113.609 ms - 251[0m
+2023-02-14 11:19:23 info: [0mOPTIONS /movies/63eb6e38583b8076c4d4d01c/poster [32m204[0m 1.047 ms - 0[0m
+2023-02-14 11:19:25 info: [0mOPTIONS /movies/63eb6e38583b8076c4d4d01c/trailer [32m204[0m 0.306 ms - 0[0m
+2023-02-14 11:19:27 info: [0mPOST /movies/63eb6e38583b8076c4d4d01c/trailer [32m200[0m 2017.566 ms - 357[0m
+2023-02-14 11:19:27 info: [0mPOST /movies/63eb6e38583b8076c4d4d01c/poster [32m200[0m 3656.049 ms - 465[0m
+2023-02-14 11:36:20 info: =================================
+2023-02-14 11:36:20 info: ======= ENV: development =======
+2023-02-14 11:36:20 info: 🚀 App listening on the port 4500
+2023-02-14 11:36:20 info: =================================
+2023-02-14 11:36:20 info: Connected to database
+2023-02-14 11:46:49 info: =================================
+2023-02-14 11:46:49 info: ======= ENV: development =======
+2023-02-14 11:46:49 info: 🚀 App listening on the port 4500
+2023-02-14 11:46:49 info: =================================
+2023-02-14 11:46:49 info: Connected to database
+2023-02-14 11:51:28 info: =================================
+2023-02-14 11:51:28 info: ======= ENV: development =======
+2023-02-14 11:51:28 info: 🚀 App listening on the port 4500
+2023-02-14 11:51:28 info: =================================
+2023-02-14 11:51:28 info: Connected to database
+2023-02-14 11:51:44 info: =================================
+2023-02-14 11:51:44 info: ======= ENV: development =======
+2023-02-14 11:51:44 info: 🚀 App listening on the port 4500
+2023-02-14 11:51:44 info: =================================
+2023-02-14 11:51:44 info: Connected to database
+2023-02-14 11:52:41 info: =================================
+2023-02-14 11:52:41 info: ======= ENV: development =======
+2023-02-14 11:52:41 info: 🚀 App listening on the port 4500
+2023-02-14 11:52:41 info: =================================
+2023-02-14 11:52:41 info: Connected to database
+2023-02-14 12:08:57 info: =================================
+2023-02-14 12:08:57 info: ======= ENV: development =======
+2023-02-14 12:08:57 info: 🚀 App listening on the port 4500
+2023-02-14 12:08:57 info: =================================
+2023-02-14 12:08:58 info: Connected to database
+2023-02-14 12:13:49 info: =================================
+2023-02-14 12:13:49 info: ======= ENV: development =======
+2023-02-14 12:13:49 info: 🚀 App listening on the port 4500
+2023-02-14 12:13:49 info: =================================
+2023-02-14 12:13:49 info: Connected to database
+2023-02-14 12:16:04 info: =================================
+2023-02-14 12:16:04 info: ======= ENV: development =======
+2023-02-14 12:16:04 info: 🚀 App listening on the port 4500
+2023-02-14 12:16:04 info: =================================
+2023-02-14 12:16:04 info: Connected to database
+2023-02-14 12:16:16 info: =================================
+2023-02-14 12:16:16 info: ======= ENV: development =======
+2023-02-14 12:16:16 info: 🚀 App listening on the port 4500
+2023-02-14 12:16:16 info: =================================
+2023-02-14 12:16:16 info: Connected to database
+2023-02-14 12:18:34 info: [0mOPTIONS /movies [32m204[0m 19.552 ms - 0[0m
+2023-02-14 12:18:34 error: [POST] /movies >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:8080
+2023-02-14 12:18:34 info: [0mPOST /movies [31m500[0m 345.309 ms - 49[0m
+2023-02-14 12:21:47 info: =================================
+2023-02-14 12:21:47 info: ======= ENV: development =======
+2023-02-14 12:21:47 info: 🚀 App listening on the port 4500
+2023-02-14 12:21:47 info: =================================
+2023-02-14 12:21:47 info: Connected to database
+2023-02-14 12:22:35 info: [0mOPTIONS /movies [32m204[0m 2.418 ms - 0[0m
+2023-02-14 12:22:35 error: [POST] /movies >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:8080
+2023-02-14 12:22:35 info: [0mPOST /movies [31m500[0m 152.931 ms - 49[0m
+2023-02-14 12:23:21 info: =================================
+2023-02-14 12:23:21 info: ======= ENV: development =======
+2023-02-14 12:23:21 info: 🚀 App listening on the port 4500
+2023-02-14 12:23:21 info: =================================
+2023-02-14 12:23:21 info: Connected to database
+2023-02-14 12:29:37 info: =================================
+2023-02-14 12:29:37 info: ======= ENV: development =======
+2023-02-14 12:29:37 info: 🚀 App listening on the port 4500
+2023-02-14 12:29:37 info: =================================
+2023-02-14 12:29:37 info: Connected to database
+2023-02-14 12:31:24 info: [0mOPTIONS /movies [32m204[0m 7.387 ms - 0[0m
+2023-02-14 12:31:25 info: [0mPOST /movies [32m201[0m 471.212 ms - 253[0m
+2023-02-14 12:31:25 info: [0mOPTIONS /movies/63eb7f1c2babdc80fe6771e6/poster [32m204[0m 0.810 ms - 0[0m
+2023-02-14 12:31:25 info: [0mPOST /movies/63eb7f1c2babdc80fe6771e6/poster [32m200[0m 353.619 ms - 361[0m
+2023-02-14 12:31:27 info: [0mOPTIONS /movies/63eb7f1c2babdc80fe6771e6/trailer [32m204[0m 0.509 ms - 0[0m
+2023-02-14 12:31:27 info: [0mPOST /movies/63eb7f1c2babdc80fe6771e6/trailer [32m200[0m 354.713 ms - 467[0m
+2023-02-14 12:32:46 info: =================================
+2023-02-14 12:32:46 info: ======= ENV: development =======
+2023-02-14 12:32:46 info: 🚀 App listening on the port 4500
+2023-02-14 12:32:46 info: =================================
+2023-02-14 12:32:46 info: Connected to database
+2023-02-14 12:33:43 info: =================================
+2023-02-14 12:33:43 info: ======= ENV: development =======
+2023-02-14 12:33:43 info: 🚀 App listening on the port 4500
+2023-02-14 12:33:43 info: =================================
+2023-02-14 12:33:43 info: Connected to database
+2023-02-14 12:35:30 info: [0mOPTIONS /movies [32m204[0m 3.347 ms - 0[0m
+2023-02-14 12:35:31 info: [0mPOST /movies [32m201[0m 509.547 ms - 253[0m
+2023-02-14 12:35:31 info: [0mOPTIONS /movies/63eb8013e03da6d3d251000c/poster [32m204[0m 1.262 ms - 0[0m
+2023-02-14 12:35:32 info: [0mPOST /movies/63eb8013e03da6d3d251000c/poster [32m200[0m 347.858 ms - 361[0m
+2023-02-14 12:35:33 info: [0mOPTIONS /movies/63eb8013e03da6d3d251000c/trailer [32m204[0m 0.471 ms - 0[0m
+2023-02-14 12:35:33 info: [0mPOST /movies/63eb8013e03da6d3d251000c/trailer [32m200[0m 377.885 ms - 467[0m
+2023-02-14 12:36:36 info: =================================
+2023-02-14 12:36:36 info: ======= ENV: development =======
+2023-02-14 12:36:36 info: 🚀 App listening on the port 4500
+2023-02-14 12:36:36 info: =================================
+2023-02-14 12:36:36 info: Connected to database
+2023-02-14 14:30:10 info: =================================
+2023-02-14 14:30:10 info: ======= ENV: development =======
+2023-02-14 14:30:10 info: 🚀 App listening on the port 4500
+2023-02-14 14:30:10 info: =================================
+2023-02-14 14:30:10 info: Connected to database
+2023-02-14 14:48:33 info: [0mPOST /movies [32m201[0m 1142.899 ms - 268[0m
+2023-02-14 14:50:36 info: [0mPOST /movies [32m201[0m 188.474 ms - 257[0m
+2023-02-14 14:55:20 info: =================================
+2023-02-14 14:55:20 info: ======= ENV: development =======
+2023-02-14 14:55:20 info: 🚀 App listening on the port 4500
+2023-02-14 14:55:20 info: =================================
+2023-02-14 14:55:20 info: Connected to database
+2023-02-14 14:56:16 info: [0mPUT /movies/63eb9fbc25dc2f2194834571 [32m200[0m 130.552 ms - 471[0m
+2023-02-14 14:56:50 info: [0mPUT /movies/63eb9f4025dc2f219483456e [32m200[0m 65.524 ms - 482[0m
+2023-02-14 14:57:26 info: [0mPOST /movies [32m201[0m 429.477 ms - 257[0m
+2023-02-14 14:57:34 info: [0mPUT /movies/63eba15606b82536a9f1a1e5 [32m200[0m 23.486 ms - 471[0m
+2023-02-14 14:58:17 info: [0mPOST /movies [32m201[0m 154.142 ms - 264[0m
+2023-02-14 14:58:25 info: [0mPUT /movies/63eba18906b82536a9f1a1e9 [32m200[0m 41.837 ms - 478[0m
+2023-02-14 14:59:00 info: [0mPOST /movies [32m201[0m 231.484 ms - 253[0m
+2023-02-14 14:59:07 info: [0mPUT /movies/63eba1b406b82536a9f1a1ed [32m200[0m 34.094 ms - 467[0m
+2023-02-14 14:59:29 info: [0mPOST /movies [32m201[0m 229.775 ms - 257[0m
+2023-02-14 14:59:36 info: [0mPUT /movies/63eba1d106b82536a9f1a1f1 [32m200[0m 38.924 ms - 471[0m
+2023-02-14 15:00:25 info: [0mPOST /movies [32m201[0m 149.155 ms - 291[0m
+2023-02-14 15:00:31 info: [0mPUT /movies/63eba20906b82536a9f1a1f5 [32m200[0m 27.905 ms - 505[0m
+2023-02-14 15:00:54 info: [0mPOST /movies [32m201[0m 140.811 ms - 249[0m
+2023-02-14 15:01:01 info: [0mPUT /movies/63eba22606b82536a9f1a1f9 [32m200[0m 48.801 ms - 463[0m
+2023-02-14 15:01:36 info: [0mPOST /movies [32m201[0m 130.242 ms - 295[0m
+2023-02-14 15:01:42 info: [0mPUT /movies/63eba25006b82536a9f1a1fd [32m200[0m 26.145 ms - 509[0m
+2023-02-14 15:02:14 info: [0mPOST /movies [32m201[0m 137.225 ms - 273[0m
+2023-02-14 15:02:24 info: [0mPUT /movies/63eba27606b82536a9f1a201 [32m200[0m 23.045 ms - 487[0m
+2023-02-14 15:02:50 info: [0mPOST /movies [32m201[0m 160.588 ms - 250[0m
+2023-02-14 15:02:56 info: [0mPUT /movies/63eba29a06b82536a9f1a205 [32m200[0m 26.246 ms - 464[0m
+2023-02-14 15:03:20 info: [0mPOST /movies [32m201[0m 140.318 ms - 248[0m
+2023-02-14 15:03:25 info: [0mPUT /movies/63eba2b706b82536a9f1a209 [32m200[0m 20.447 ms - 462[0m
+2023-02-14 15:04:30 info: [0mPOST /movies [32m201[0m 134.803 ms - 283[0m
+2023-02-14 15:04:37 info: [0mPUT /movies/63eba2fe06b82536a9f1a20d [32m200[0m 40.966 ms - 497[0m
+2023-02-14 15:05:15 info: [0mPOST /movies [32m201[0m 157.763 ms - 262[0m
+2023-02-14 15:05:22 info: [0mPUT /movies/63eba32b06b82536a9f1a211 [32m200[0m 19.279 ms - 476[0m
+2023-02-14 15:07:41 info: [0mOPTIONS /movies [32m204[0m 15.270 ms - 0[0m
+2023-02-14 15:07:41 info: [0mPOST /movies [32m201[0m 301.572 ms - 286[0m
+2023-02-14 15:07:41 info: [0mOPTIONS /movies/63eba3bd06b82536a9f1a215/poster [32m204[0m 0.468 ms - 0[0m
+2023-02-14 15:07:42 info: [0mPOST /movies/63eba3bd06b82536a9f1a215/poster [32m200[0m 499.684 ms - 410[0m
+2023-02-14 15:07:43 info: [0mOPTIONS /movies/63eba3bd06b82536a9f1a215/trailer [32m204[0m 0.722 ms - 0[0m
+2023-02-14 15:07:43 info: [0mPOST /movies/63eba3bd06b82536a9f1a215/trailer [32m200[0m 202.987 ms - 516[0m
+2023-02-14 15:08:51 info: [0mPOST /movies [32m201[0m 190.078 ms - 263[0m
+2023-02-14 15:08:58 info: [0mPUT /movies/63eba40306b82536a9f1a21a [32m200[0m 30.600 ms - 493[0m
+2023-02-14 15:09:29 info: [0mPOST /movies [32m201[0m 137.841 ms - 275[0m
+2023-02-14 15:09:35 info: [0mPUT /movies/63eba42906b82536a9f1a21e [32m200[0m 38.944 ms - 505[0m
+2023-02-14 15:09:55 info: [0mPOST /movies [32m201[0m 119.493 ms - 246[0m
+2023-02-14 15:10:04 info: [0mPUT /movies/63eba44306b82536a9f1a222 [32m200[0m 35.134 ms - 476[0m
+2023-02-14 15:10:25 info: [0mPOST /movies [32m201[0m 146.658 ms - 259[0m
+2023-02-14 15:10:32 info: [0mPUT /movies/63eba46106b82536a9f1a226 [32m200[0m 21.873 ms - 489[0m
