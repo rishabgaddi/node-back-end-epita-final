@@ -5,3 +5,32 @@
 2023-02-14 11:07:46 error: [POST] /movies/63eb6b7b109d99beffb2a078/trailer >> StatusCode:: 500, Message:: The bucket does not allow ACLs
 2023-02-14 12:18:34 error: [POST] /movies >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:8080
 2023-02-14 12:22:35 error: [POST] /movies >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:8080
+2023-02-14 16:21:33 error: [GET] /movies/new >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "new" (type string) at path "_id" for model "Movie"
+2023-02-14 16:24:26 error: [GET] /movies/new >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "new" (type string) at path "_id" for model "Movie"
+2023-02-14 16:26:36 error: [GET] /movies/new >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "new" (type string) at path "_id" for model "Movie"
+2023-02-14 16:30:29 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/app/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/app/node_modules/express/lib/router/index.js:521:19)
+    at MoviesRoute.initializeRoutes (/app/src/routes/movies.route.ts:38:17)
+    at new MoviesRoute (/app/src/routes/movies.route.ts:13:10)
+    at Object.<anonymous> (/app/src/index.ts:9:22)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Module._compile (/app/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-19695239663906006.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-19695239663906006.js:114:20)
+2023-02-14 16:30:50 error: [GET] /movies/latest >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "latest" (type string) at path "_id" for model "Movie"
+2023-02-14 17:29:07 error: [POST] /movies/id/63ebc4e397770261d872ab35/poster >> StatusCode:: 500, Message:: Unsupported body payload object
+2023-02-14 17:29:07 error: [POST] /movies/id/63ebc4e397770261d872ab35/trailer >> StatusCode:: 500, Message:: Unsupported body payload object
+2023-02-14 18:33:38 error: [GET] /movies/id/[object%20Object] >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Movie"
+2023-02-14 18:33:38 error: [GET] /movies/id/[object%20Object] >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Movie"
+2023-02-14 18:33:42 error: [GET] /movies/id/[object%20Object] >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Movie"
+2023-02-14 18:33:42 error: [GET] /movies/id/[object%20Object] >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Movie"
+2023-02-14 18:33:42 error: [GET] /movies/id/[object%20Object] >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Movie"
+2023-02-14 19:04:32 error: [POST] /movies/id/63ebdb3f963a08ed22022937/poster >> StatusCode:: 500, Message:: Unsupported body payload object
+2023-02-14 19:04:32 error: [POST] /movies/id/63ebdb3f963a08ed22022937/trailer >> StatusCode:: 500, Message:: Unsupported body payload object
+2023-02-14 19:05:38 error: [POST] /movies/id/63ebdb82963a08ed2202293a/poster >> StatusCode:: 500, Message:: Unsupported body payload object
+2023-02-14 19:05:38 error: [POST] /movies/id/63ebdb82963a08ed2202293a/trailer >> StatusCode:: 500, Message:: Unsupported body payload object
+2023-02-14 19:06:36 error: [POST] /movies/id/63ebdbbc963a08ed2202293d/poster >> StatusCode:: 500, Message:: Unsupported body payload object
+2023-02-14 19:06:37 error: [POST] /movies/id/63ebdbbc963a08ed2202293d/trailer >> StatusCode:: 500, Message:: Unsupported body payload object

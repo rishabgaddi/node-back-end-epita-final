@@ -15,6 +15,6 @@ export interface CreateMovie {
   releaseDate: string;
   category: string;
   director: string;
-  posterURL: any;
-  trailerURL: any;
+  posterURL: string;
+  trailerURL: string;
 }

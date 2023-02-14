@@ -118,7 +118,15 @@ class MoviesController {
   ) => {
     try {
       const movieId: string = req.params.id;
-      const buffer: Buffer = Buffer.from(JSON.stringify(req.body));
+      const buffer = await new Promise((resolve, reject) => {
+        let chunks: any = [];
+        req.on('data', (chunk) => chunks.push(chunk));
+        req.on('end', () => {
+          resolve(Buffer.concat(chunks));
+        });
+        req.on('error', (err) => reject(err));
+      });
+
       const fileName: string = req
         .get('Content-Disposition')
         .split('filename=')[1];
@@ -151,7 +159,15 @@ class MoviesController {
   ) => {
     try {
       const movieId: string = req.params.id;
-      const buffer: Buffer = Buffer.from(JSON.stringify(req.body));
+      const buffer = await new Promise((resolve, reject) => {
+        let chunks: any = [];
+        req.on('data', (chunk) => chunks.push(chunk));
+        req.on('end', () => {
+          resolve(Buffer.concat(chunks));
+        });
+        req.on('error', (err) => reject(err));
+      });
+
       const fileName: string = req
         .get('Content-Disposition')
         .split('filename=')[1];
@@ -172,6 +188,20 @@ class MoviesController {
       );
 
       res.status(200).json({ movie: updatedMovie, message: 'updated' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public getLatestMovies = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const latestMovies: Movie[] = await this.movieService.getLatestMovies();
+
+      res.status(200).json({ movies: latestMovies, message: 'findAll' });
     } catch (error) {
       next(error);
     }

@@ -91,6 +91,18 @@ class MovieService {
 
     return updatedMovie;
   }
+
+  public async getLatestMovies(): Promise<Movie[]> {
+    // Get all movies whose createdAt is within the last 30 days
+    const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+    const latestMovies: Movie[] = await this.movies
+      .find({
+        createdAt: { $gte: thirtyDaysAgo },
+      })
+      .sort({ createdAt: -1 });
+
+    return latestMovies;
+  }
 }
 
 export default MovieService;
