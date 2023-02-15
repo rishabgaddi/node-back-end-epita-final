@@ -103,6 +103,14 @@ class MovieService {
 
     return latestMovies;
   }
+
+  public async findAllByIds(movieIds: string[]): Promise<Movie[]> {
+    const movies: Movie[] = await this.movies.find({
+      _id: { $in: movieIds },
+    });
+
+    return movies;
+  }
 }
 
 export default MovieService;

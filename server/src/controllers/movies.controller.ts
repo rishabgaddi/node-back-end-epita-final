@@ -206,6 +206,27 @@ class MoviesController {
       next(error);
     }
   };
+
+  public getSeenMovies = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const username: string = req.params.username;
+      const movieIds: string[] = await this.springService.getSeenMovieIds(
+        username
+      );
+
+      const seenMovies: Movie[] = await this.movieService.findAllByIds(
+        movieIds
+      );
+
+      res.status(200).json({ movies: seenMovies, message: 'findAll' });
+    } catch (error) {
+      next(error);
+    }
+  };
 }
 
 export default MoviesController;

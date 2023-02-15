@@ -42,6 +42,10 @@ class MoviesRoute implements Routes {
       `${this.path}/latest`,
       this.moviesController.getLatestMovies
     );
+    this.router.get(
+      `${this.path}/seen/user/:username`,
+      this.moviesController.getSeenMovies
+    );
   }
 }
 
