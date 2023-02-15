@@ -1,11 +1,14 @@
 import { CreateRatingDto } from '@/dtos/ratings.dto';
 import { HttpException } from '@/exceptions/HttpException';
+import { Movie } from '@/interfaces/movies.interface';
 import { Rating } from '@/interfaces/ratings.interface';
+import movieModel from '@/models/movies.model';
 import ratingModel from '@/models/ratings.model';
 import { isEmpty } from 'class-validator';
 
 class RatingService {
   public ratings = ratingModel;
+  public movies = movieModel;
 
   public async findAllRating(): Promise<Rating[]> {
     const ratings: Rating[] = await this.ratings.find();
@@ -26,13 +29,13 @@ class RatingService {
       throw new HttpException(400, 'ratingData is empty');
 
     const findRating: Rating = await this.ratings.findOne({
-      userId: ratingData.userId,
+      username: ratingData.username,
       movieId: ratingData.movieId,
     });
     if (findRating)
       throw new HttpException(
         409,
-        `The user ${ratingData.userId} already rated this movie ${ratingData.movieId}`
+        `The user ${ratingData.username} already rated this movie ${ratingData.movieId}`
       );
 
     const createRatingData: Rating = await this.ratings.create({
@@ -65,6 +68,50 @@ class RatingService {
     if (!deleteRatingById) throw new HttpException(409, "Rating doesn't exist");
 
     return deleteRatingById;
+  }
+
+  public async findRatingByMovieIdAndUsername(
+    movieId: string,
+    username: string
+  ): Promise<Rating> {
+    const findRating: Rating = await this.ratings.findOne({
+      movieId: movieId,
+      username: username,
+    });
+    if (!findRating) throw new HttpException(409, "Rating doesn't exist");
+
+    return findRating;
+  }
+
+  public async findTopRatedMovies(): Promise<Movie[]> {
+    const topTenRated: any[] = await this.ratings
+      .aggregate([
+        {
+          $group: {
+            _id: '$movieId',
+            averageRating: { $avg: '$rating' },
+          },
+        },
+        {
+          $sort: {
+            averageRating: -1,
+          },
+        },
+        {
+          $limit: 10,
+        },
+      ])
+      .exec();
+
+    const movieIds: string[] = topTenRated.map((movie) => movie._id);
+    const topTenRatedMovies: Movie[] = await this.movies.find({
+      _id: { $in: movieIds },
+    });
+
+    if (!topTenRatedMovies)
+      throw new HttpException(409, "Rating doesn't exist");
+
+    return topTenRatedMovies;
   }
 }
 

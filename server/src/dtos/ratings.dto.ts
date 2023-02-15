@@ -13,7 +13,7 @@ export class CreateRatingDto {
   public commentContent: string;
 
   @IsString()
-  public userId: string;
+  public username: string;
 
   @IsObjectId()
   public movieId: Movie['_id'];

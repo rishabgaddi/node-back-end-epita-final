@@ -27,6 +27,14 @@ class RatingsRoute implements Routes {
       this.ratingsController.updateRating
     );
     this.router.delete(`${this.path}/:id`, this.ratingsController.deleteRating);
+    this.router.get(
+      `${this.path}/movie/:movieId/user/:username`,
+      this.ratingsController.getRatingByMovieIdForUser
+    );
+    this.router.get(
+      `${this.path}/top/movies`,
+      this.ratingsController.getTopRatedMovies
+    );
   }
 }
 

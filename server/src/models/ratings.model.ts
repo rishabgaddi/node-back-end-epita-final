@@ -19,7 +19,7 @@ const ratingSchema: Schema = new Schema(
       type: String,
       required: true,
     },
-    userId: {
+    username: {
       type: String,
       required: true,
     },
@@ -40,7 +40,7 @@ const ratingSchema: Schema = new Schema(
   }
 });
 
-ratingSchema.index({ userId: 1, movieId: 1 }, { unique: true });
+ratingSchema.index({ username: 1, movieId: 1 }, { unique: true });
 
 const ratingModel = model<Rating & Document>('Rating', ratingSchema);
 

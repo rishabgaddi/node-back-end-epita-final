@@ -34,6 +34,17 @@ class SpringService {
     }
     return response.data;
   }
+
+  public async getTopSeenMovieIds(): Promise<string[]> {
+    const response = await springInstance.get('/seenmovies/top');
+    if (response.status !== 200) {
+      throw new HttpException(
+        500,
+        'Error getting top seen movies from Spring Boot API'
+      );
+    }
+    return response.data;
+  }
 }
 
 export default SpringService;

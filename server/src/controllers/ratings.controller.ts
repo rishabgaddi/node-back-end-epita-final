@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 import { Rating } from '@/interfaces/ratings.interface';
 import RatingService from '@/services/ratings.service';
+import { Movie } from '@/interfaces/movies.interface';
 
 class RatingsController {
   public ratingService = new RatingService();
@@ -14,7 +15,7 @@ class RatingsController {
       const findAllRatingsData: Rating[] =
         await this.ratingService.findAllRating();
 
-      res.status(200).json({ data: findAllRatingsData, message: 'findAll' });
+      res.status(200).json({ ratings: findAllRatingsData, message: 'findAll' });
     } catch (error) {
       next(error);
     }
@@ -31,7 +32,7 @@ class RatingsController {
         ratingId
       );
 
-      res.status(200).json({ data: findOneRatingData, message: 'findOne' });
+      res.status(200).json({ rating: findOneRatingData, message: 'findOne' });
     } catch (error) {
       next(error);
     }
@@ -48,7 +49,7 @@ class RatingsController {
         ratingData
       );
 
-      res.status(201).json({ data: createRatingData, message: 'created' });
+      res.status(201).json({ rating: createRatingData, message: 'created' });
     } catch (error) {
       next(error);
     }
@@ -67,7 +68,7 @@ class RatingsController {
         ratingData
       );
 
-      res.status(200).json({ data: updateRatingData, message: 'updated' });
+      res.status(200).json({ rating: updateRatingData, message: 'updated' });
     } catch (error) {
       next(error);
     }
@@ -84,7 +85,42 @@ class RatingsController {
         ratingId
       );
 
-      res.status(200).json({ data: deleteRatingData, message: 'deleted' });
+      res.status(200).json({ rating: deleteRatingData, message: 'deleted' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public getRatingByMovieIdForUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const movieId: string = req.params.movieId;
+      const username: string = req.params.username;
+      const findOneRatingData: Rating =
+        await this.ratingService.findRatingByMovieIdAndUsername(
+          movieId,
+          username
+        );
+
+      res.status(200).json({ rating: findOneRatingData, message: 'findOne' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public getTopRatedMovies = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const topRatedMovies: Movie[] =
+        await this.ratingService.findTopRatedMovies();
+
+      res.status(200).json({ movies: topRatedMovies, message: 'findAll' });
     } catch (error) {
       next(error);
     }

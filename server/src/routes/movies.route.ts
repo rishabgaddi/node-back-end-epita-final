@@ -46,6 +46,10 @@ class MoviesRoute implements Routes {
       `${this.path}/seen/user/:username`,
       this.moviesController.getSeenMovies
     );
+    this.router.get(
+      `${this.path}/top/watched`,
+      this.moviesController.getTopSeenMovies
+    );
   }
 }
 

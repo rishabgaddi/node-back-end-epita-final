@@ -227,6 +227,23 @@ class MoviesController {
       next(error);
     }
   };
+
+  public getTopSeenMovies = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const movieIds: string[] = await this.springService.getTopSeenMovieIds();
+      const topSeenMovies: Movie[] = await this.movieService.findAllByIds(
+        movieIds
+      );
+
+      res.status(200).json({ movies: topSeenMovies, message: 'findAll' });
+    } catch (error) {
+      next(error);
+    }
+  };
 }
 
 export default MoviesController;
